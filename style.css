@@ -1,0 +1,50 @@
+/*Look at app.js for a desciption of this web app*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.screen {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallpaper-box {
+  width: 750px;
+  height: 750px;
+}
+.row {
+  height: 7.5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.pixel {
+  height: 7.5px;
+  width: 7.5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+.controls {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controlModule {
+  margin: 0rem 2rem;
+}
+.input,
+.generate {
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+button {
+  cursor: pointer;
+}
